@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:sans-serif;
+}
+
+header {
+    height:100px;
+    line-height:100px;
+    width:100%;
+    color:rgb(255, 255, 255);
+    font-size:36px;
+    font-weight:bolder;
+    background: rgb(56, 56, 56);
+    text-align:center;
+    box-shadow:0px 5px rgb(0, 0, 0);
+    margin-bottom:5px;
+}
+
+.cardRow {
+    margin:auto;
+    width:90%;
+    margin-top:30px;
+    text-align: center;
+}
+
+.cardRow div {
+    width:150px;
+    height:200px;
+    background-color:rgb(37, 142, 202);
+    border:solid 3px rgb(24, 103, 150);
+    box-shadow:0px 3px rgb(19, 85, 122);
+    text-align:center;
+    display:inline-block;
+    margin-bottom:6px;
+}
+
+.cardRow div:hover {
+    box-shadow:0px 2px rgb(19, 85, 122);
+    transform: translateY(1px);
+}
+
+.cardRow div:active {
+    box-shadow:0px 1px rgb(19, 85, 122);
+    transform: translateY(2px);
+}
+
+.cardRow div h1 {
+    padding-top:5px;
+    color:white;
+    font-size:20px;
+}
+
+.cardRow hr {
+    margin:auto;
+    width:90%;
+    border:1px solid rgb(255, 255, 255);
+}
+
+.cardRow b {
+    width:100%;
+    height:100%;
+    line-height: 150px;
+    color:rgb(255, 255, 255);
+    font-size:60px;
+    font-weight:bold;
+    -webkit-text-stroke: 2px black;
+}
