@@ -146,7 +146,6 @@ let game = {
                 $('.revealBox').style.visibility = 'visible';
                 $('.revealBox').innerHTML = this.player.selectedCard.htmlConstructor() + this.generateEmptyCard();
                 $('.revealBox').innerHTML += '</br><button onclick="game.revealTurnWinner()">Reveal</button>'
-                this.settings.inPlay = true;
             }
         }
     },
