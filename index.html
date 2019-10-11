@@ -7,9 +7,18 @@
         <header>
             Top Trumps Game
         </header>
-        <div class="cardRow">
-            <div><h1>Trump</h1><hr><b>100</b></div>
+        <div class="gameInfo">
+            These are your cards, and yours only! Pick a card to compare
         </div>
+        <div class="cardRow"></div>
+        <div class="pickAtt">
+            <button onclick="game.chooseAttribute('health')">Health</button>
+            <button onclick="game.chooseAttribute('attack')">Attack</button>
+            <button onclick="game.chooseAttribute('defense')">Defense</button>
+            <button onclick="game.chooseAttribute('evilness')">Evilness</button>
+            <button onclick="game.chooseAttribute('deception')">Deception</button>
+        </div>
+        <div class="revealBox"></div>
         <script src="js/main.js"></script>
     </body>
 </html>
