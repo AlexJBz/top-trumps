@@ -24,7 +24,7 @@ class Card {
         let html = '';
         html += `<div onclick="game.chooseCard(${this.id})" class="card"><h1>Trumps</h1><hr>Health: <b>${this.health}`;
         html += `</b></br>Attack: <b>${this.attack}</b></br>Defense: <b>${this.defense}</b></br>`;
-        html += `Evilness: <b>${this.evilness}</b></br>Deception: <b>${this.deception}</b></br></br>`;
+        html += `Evilness: <b>${this.evilness}</b></br>Deception: <b>${this.deception}</b></br>`;
         html += `Wins: <b>${this.wins}</b></br></div>`;
         return html;
     }
@@ -231,7 +231,7 @@ let game = {
     generateEmptyCard() {
         let html = '';
         html += `<div class="card"><h1>Trumps</h1><hr>Health: <b>?</b></br>Attack: <b>?</b></br>`;
-        html += `Defense: <b>?</b></br>Evilness: <b>?</b></br>Deception: <b>?</b></br></br>`;
+        html += `Defense: <b>?</b></br>Evilness: <b>?</b></br>Deception: <b>?</b></br>`;
         html += '</br></div>'
         return html;
     },
